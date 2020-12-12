@@ -7,14 +7,6 @@ let currenttime= new Date().getHours();
 let greetings='';
 
 const greeting ={} ;
-// const cssStyle={
-//     textAlign:'center',
-//     margin:'100px 0px',
-//     backgroundColor:'pink',
-//     padding:'20px 20px',
-//     borderRadius:'20px'
-//     // textBackground:'pink'
-// };
 
 if(currenttime>=1 && currenttime<12){
     greetings='Good Morning';
